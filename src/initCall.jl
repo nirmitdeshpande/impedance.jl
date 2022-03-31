@@ -1,1 +1,8 @@
-# file to initialise and start the flow of package, and call major functions
+
+include("/Users/nirmitdeshpande/.julia/dev/impedance/src/plotting.jl")
+
+
+
+plotNyquist()
+
+ 

@@ -1,4 +1,13 @@
+#module plotting
+#(for future dev)
+
+#export plotBode, plotNyquist
+
+
+
 using DataFrames, Queryverse, DelimitedFiles, CSV, Plots
+include("/Users/nirmitdeshpande/.julia/dev/impedance/src/preprocessing.jl")
+
 
 
 function plotNyquist()
@@ -37,5 +46,5 @@ function plotBode()
     #savefig("testerplot.png")
 end
 
+#end
 
-plotBode()
